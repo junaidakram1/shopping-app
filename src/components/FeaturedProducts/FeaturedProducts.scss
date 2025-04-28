@@ -1,0 +1,35 @@
+.featuredProducts {
+  margin: 100px 200px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+
+  .top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 50px;
+    padding: 20px;
+    // background: linear-gradient(135deg, #ffffff 70%, #ebe8df 100%);
+    border-radius: 12px;
+    // box-shadow: 0 4px 12px rgba(0, 0, 0, 0.03);
+    h1 {
+      color: black;
+      flex: 3;
+      text-transform: capitalize;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      font-weight: 500;
+    }
+
+    p {
+      flex: 3;
+      color: gray;
+    }
+  }
+
+  .bottom {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+  }
+}
